@@ -1,11 +1,10 @@
 <template>
   <v-app :style="{ background: $vuetify.theme.themes[theme].background }">
     <NavBar />
-    <v-container>
-      <v-content>
-        <router-view />
-      </v-content>
-    </v-container>
+    <!-- Notice how this app does not use the v-container.... -->
+    <v-content>
+      <router-view />
+    </v-content>
   </v-app>
 </template>
 
