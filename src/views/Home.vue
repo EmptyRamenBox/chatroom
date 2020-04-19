@@ -43,10 +43,7 @@ export default {
   data() {
     return {
       newRoom: "",
-      rooms: [
-        { id: 0, name: "One" },
-        { id: 1, name: "Two" },
-      ],
+      rooms: [],
     };
   },
   // whenever the application gets rendered

@@ -21,7 +21,7 @@
         <!-- -->
       </v-list>
     </v-navigation-drawer>
-    <v-container>
+    <v-container v-if="messages">
       <v-card class="mb-2" v-for="message in messages" :key="message.id">
         <v-card-subtitle
           ><span class="font-weight-bold">{{ message.author }}</span> on
